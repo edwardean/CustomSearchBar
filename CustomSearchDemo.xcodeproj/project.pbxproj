@@ -14,6 +14,8 @@
 		40D8D0361BAA4FA100E7FCB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D8D0351BAA4FA100E7FCB8 /* Images.xcassets */; };
 		40D8D0391BAA4FA100E7FCB8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40D8D0371BAA4FA100E7FCB8 /* LaunchScreen.xib */; };
 		40D8D0451BAA4FA100E7FCB8 /* CustomSearchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D8D0441BAA4FA100E7FCB8 /* CustomSearchDemoTests.m */; };
+		40D8D0501BAA502600E7FCB8 /* CustomSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D8D04F1BAA502600E7FCB8 /* CustomSearchBar.m */; };
+		6AF29AE0C0663813A867C6DA /* libPods-CustomSearchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DCDFBFCE9DBCF08893B3ED /* libPods-CustomSearchDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C21EE017DB32BAFF8E98422 /* Pods-CustomSearchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSearchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomSearchDemo/Pods-CustomSearchDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		40D8D0251BAA4FA100E7FCB8 /* CustomSearchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSearchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D8D0291BAA4FA100E7FCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40D8D02A1BAA4FA100E7FCB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,10 @@
 		40D8D03E1BAA4FA100E7FCB8 /* CustomSearchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSearchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D8D0431BAA4FA100E7FCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40D8D0441BAA4FA100E7FCB8 /* CustomSearchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSearchDemoTests.m; sourceTree = "<group>"; };
+		40D8D04E1BAA502600E7FCB8 /* CustomSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSearchBar.h; sourceTree = "<group>"; };
+		40D8D04F1BAA502600E7FCB8 /* CustomSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSearchBar.m; sourceTree = "<group>"; };
+		5CD247FCE833AB179EEF67F1 /* Pods-CustomSearchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSearchDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomSearchDemo/Pods-CustomSearchDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E7DCDFBFCE9DBCF08893B3ED /* libPods-CustomSearchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomSearchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF29AE0C0663813A867C6DA /* libPods-CustomSearchDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +74,8 @@
 				40D8D0271BAA4FA100E7FCB8 /* CustomSearchDemo */,
 				40D8D0411BAA4FA100E7FCB8 /* CustomSearchDemoTests */,
 				40D8D0261BAA4FA100E7FCB8 /* Products */,
+				E414ABE9AE9B6A642554626B /* Pods */,
+				7CA2C3516057E57CB8082731 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +95,8 @@
 				40D8D02D1BAA4FA100E7FCB8 /* AppDelegate.m */,
 				40D8D02F1BAA4FA100E7FCB8 /* ViewController.h */,
 				40D8D0301BAA4FA100E7FCB8 /* ViewController.m */,
+				40D8D04E1BAA502600E7FCB8 /* CustomSearchBar.h */,
+				40D8D04F1BAA502600E7FCB8 /* CustomSearchBar.m */,
 				40D8D0321BAA4FA100E7FCB8 /* Main.storyboard */,
 				40D8D0351BAA4FA100E7FCB8 /* Images.xcassets */,
 				40D8D0371BAA4FA100E7FCB8 /* LaunchScreen.xib */,
@@ -119,6 +131,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7CA2C3516057E57CB8082731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7DCDFBFCE9DBCF08893B3ED /* libPods-CustomSearchDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E414ABE9AE9B6A642554626B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C21EE017DB32BAFF8E98422 /* Pods-CustomSearchDemo.debug.xcconfig */,
+				5CD247FCE833AB179EEF67F1 /* Pods-CustomSearchDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40D8D0481BAA4FA100E7FCB8 /* Build configuration list for PBXNativeTarget "CustomSearchDemo" */;
 			buildPhases = (
+				D7DCC54F0CBDD73AD6E5F59E /* Check Pods Manifest.lock */,
 				40D8D0211BAA4FA100E7FCB8 /* Sources */,
 				40D8D0221BAA4FA100E7FCB8 /* Frameworks */,
 				40D8D0231BAA4FA100E7FCB8 /* Resources */,
+				24864EF3E5FDA8B2DFEA30CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +245,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24864EF3E5FDA8B2DFEA30CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomSearchDemo/Pods-CustomSearchDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7DCC54F0CBDD73AD6E5F59E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40D8D0211BAA4FA100E7FCB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,6 +285,7 @@
 			files = (
 				40D8D0311BAA4FA100E7FCB8 /* ViewController.m in Sources */,
 				40D8D02E1BAA4FA100E7FCB8 /* AppDelegate.m in Sources */,
+				40D8D0501BAA502600E7FCB8 /* CustomSearchBar.m in Sources */,
 				40D8D02B1BAA4FA100E7FCB8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +412,7 @@
 		};
 		40D8D0491BAA4FA100E7FCB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C21EE017DB32BAFF8E98422 /* Pods-CustomSearchDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomSearchDemo/Info.plist;
@@ -357,6 +423,7 @@
 		};
 		40D8D04A1BAA4FA100E7FCB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD247FCE833AB179EEF67F1 /* Pods-CustomSearchDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomSearchDemo/Info.plist;
@@ -418,6 +485,7 @@
 				40D8D04A1BAA4FA100E7FCB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40D8D04B1BAA4FA100E7FCB8 /* Build configuration list for PBXNativeTarget "CustomSearchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +494,7 @@
 				40D8D04D1BAA4FA100E7FCB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
